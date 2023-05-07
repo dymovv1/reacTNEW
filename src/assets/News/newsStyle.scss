@@ -1,0 +1,35 @@
+.news {
+    background-color: #292b2e;
+    padding-top: 50px;
+    &-title {
+        color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        font-size: 48px;
+    }
+    &-card {
+        width: 250px;
+    }
+    &-body {
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        align-items: baseline;
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+    }
+}
+
+.card-text {
+    color: whitesmoke;
+    letter-spacing: 1px;
+    padding-top: 15px;
+    text-align: center;
+    line-height: 35px;
+}
+.card-img {
+    width: 250px;
+    height: 140px;
+    border-radius: 15px;
+}
