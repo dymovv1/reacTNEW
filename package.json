@@ -7,7 +7,7 @@
     "dev": "vite",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "build": "react-scripts build --template src/index.html"
+    "build": "react-scripts build --template index.html"
   },
   "dependencies": {
     "react": "^18.2.0",
